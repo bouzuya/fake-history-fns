@@ -43,6 +43,12 @@ assert(previous(b1) === '/1');
 assert(previousState(b1) === 1);
 ```
 
+## Related Project
+
+- [bouzuya/fake-history][] ... A fake History object.
+
+[bouzuya/fake-history]: https://github.com/bouzuya/fake-history
+
 ## Development
 
 ```
