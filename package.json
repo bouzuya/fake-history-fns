@@ -95,7 +95,7 @@
     "build:lib": "babel --copy-files --no-comments --out-dir ./lib .tmp/es2015/src",
     "clean": "rimraf *.js *.d.ts _ .tmp public",
     "lint": "tslint --project tsconfig.json",
-    "prepublish": "npm-run-all -s 'clean' 'lint' 'build'",
+    "prepare": "npm-run-all -s 'clean' 'lint' 'build'",
     "test": "node .tmp/es5/test/index.js",
     "watch": "npm-run-all -p 'watch:*'",
     "watch:es2015": "npm run 'build:es2015' -- --watch",
