@@ -20,12 +20,6 @@
       "power-assert"
     ]
   },
-  "beater": {
-    "dir": "./.tmp/es5/test/",
-    "require": [
-      "./scripts/enable-power-assert.js"
-    ]
-  },
   "bugs": {
     "url": "https://github.com/bouzuya/fake-history-fns/issues"
   },
