@@ -1,5 +1,5 @@
 import { run, test } from 'beater';
-import * as assert from 'power-assert';
+import assert from 'power-assert';
 
 import {
   History,
