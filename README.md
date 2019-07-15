@@ -58,9 +58,12 @@ $ npm run watch
 
 ## Badges
 
+[![npm version][npm-badge-url]][npm-url]
 [![Travis CI][travisci-badge-url]][travisci-url]
 
-[travisci-badge-url]: https://travis-ci.org/bouzuya/fake-history-fns.svg
+[npm-badge-url]: https://img.shields.io/npm/v/fake-history-fns.svg
+[npm-url]: https://www.npmjs.com/package/fake-history-fns
+[travisci-badge-url]: https://img.shields.io/travis/bouzuya/fake-history-fns.svg
 [travisci-url]: https://travis-ci.org/bouzuya/fake-history-fns
 
 ## License
