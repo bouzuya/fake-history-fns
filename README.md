@@ -11,7 +11,7 @@ $ npm install fake-history-fns
 ## Usage
 
 ```ts
-import * as assert from 'assert';
+import assert from 'assert';
 import {
   back,
   create,
