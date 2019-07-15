@@ -94,7 +94,7 @@
     "build:es5": "babel --out-dir .tmp/es5 --source-maps inline .tmp/es2015",
     "build:lib": "babel --copy-files --no-comments --out-dir ./lib .tmp/es2015/src",
     "clean": "rimraf *.js *.d.ts _ .tmp public",
-    "lint": "tslint --type-check --project tsconfig.json",
+    "lint": "tslint --project tsconfig.json",
     "prepublish": "npm-run-all -s 'clean' 'lint' 'build'",
     "start": "node .tmp/es2015/src/server/index.js",
     "test": "beater",
